@@ -1,5 +1,8 @@
 #include <stdio.h>
-#include "functions.h"
+
+void modifyValue(int *ptr) {
+    *ptr = 20;
+}
 
 
 

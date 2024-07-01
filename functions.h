@@ -1,0 +1,1 @@
+void modifyValue(int *);
