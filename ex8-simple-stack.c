@@ -57,9 +57,9 @@ int main() {
     push(stack, 20);
     push(stack, 30);
 
-    printf("Top element is %d\n", peek(stack));
+    //printf("Top element is %d\n", peek(stack));
     printf("%d popped from stack\n", pop(stack));
-    printf("Top element is %d\n", peek(stack));
+    //printf("Top element is %d\n", peek(stack));
 
     return 0;
 }
