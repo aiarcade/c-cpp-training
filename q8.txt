@@ -1,0 +1,21 @@
+WASHING MACHINE: A washing machine works on the principle of a fuzzy system,the weight of 
+clothes put inside it for wash is uncertain.But based on weight measured by sensors,it 
+decides time and water levels which can be changed by menus given on the machine control area.
+
+For low water level,time estimate is 25 minutes,where approximate weight is 2000 gms or any 
+non-zero positive number below that.
+For medium water level,time estimated is 35 minutes,where approximate weight is between 
+2001 gms to 4000 gms.
+For high water level,time estimated is 45 minutes,where approximate weight is above 4000 gms.
+Assume the capacity of the machine is maximum 7000 gms.
+Where the approximate weight is zero,the time estimate is 0 minutes.
+Write the function which takes numeric weight in the range [0,7000]as input and produces
+estimated time as output;if input is more than 7000 then output is "OVERLOADED!"and for all 
+other inputs,the output statment is "INVALID INPUT".
+
+Weight                Time 
+0 --------------->   0 min
+0-2000 ---------->   25 min 
+2001-4000-------->   35 min 
+4001-7000-------->   45 min
+>7000 ----------->   OVERLOAD
